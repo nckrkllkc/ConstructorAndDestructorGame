@@ -7,6 +7,7 @@ namespace ConstructorAndDestructorGame
     {
         public static int PlayerCount;
         public string PlayerName { get; set; }
+
         public Player()
         {
             PlayerCount++;
